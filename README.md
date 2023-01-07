@@ -4,6 +4,9 @@ MultiLib is a plugin library for interfacing with MultiPaper specific APIs (such
 ## API
 All API calls can be found as static util methods in the `MultiLib` class.
 
+### Server
+Use `MultiLib#isMultiPaper()` to check if the server is running on a MultiPaper server. 
+
 ### Chunks
 ```java
 boolean isChunkExternal(World world, int cx, int cz);
